@@ -1,0 +1,77 @@
+body {
+        background-color: #d6cfcb;
+        font-family: Arial, sans-serif;
+        }
+        .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #706677;
+        padding: 20px;
+        border-radius: 10px;
+        }
+        .title {
+        color: #ccb7ae;
+        font-size: 36px;
+        margin-bottom: 14px;
+        text-align: center;
+        }
+        .list {
+        margin: 0;
+        padding: 0;
+        }
+        .list li {
+        background-color: #f8f8f8;
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        margin-bottom: 10px;
+        }
+        .list li label {
+        font-size: 20px;
+        margin-left: 14px;
+        margin-right: 14px;
+        flex: 1;
+        }
+        .list li label:hover {
+        text-overflow: clip;
+        white-space: normal;
+        word-break: break-all;
+        }
+        .list li input[type="checkbox"] {
+        margin-right: 14px;
+        width: 20px;
+        height: 20px;
+        accent-color: #ccb7ae;
+        }
+        .list li input[type="checkbox"]:checked+label {
+        text-decoration: line-through;
+        }
+        .list li button {
+        background-color: #ccb7ae;
+        border: none;
+        border-radius: 6px;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 14px;
+        }
+        .add-form {
+        display: flex;
+        margin-bottom: 10px;
+        }
+        .add-form input[type="text"] {
+        border: none;
+        border-radius: 6px;
+        font-size: 20px;
+        flex: 1;
+        padding: 8px;
+        margin-right: 25px;
+        }
+        .add-form button {
+        background-color: #ccb7ae;
+        border: none;
+        border-radius: 6px;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 8px;
+        }
+
